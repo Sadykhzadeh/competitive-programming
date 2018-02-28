@@ -1,7 +1,7 @@
 // Problem:   How many times to repeat? (eolymp 20)
 // Link:      https://eolymp.com/problems/20
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-02-28 07:19 UTC
+// Submitted: 2018-02-28 07:21 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
