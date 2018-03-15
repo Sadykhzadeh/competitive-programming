@@ -1,7 +1,7 @@
 // Problem:   Degree of symmetry (eolymp 19)
 // Link:      https://eolymp.com/problems/19
 // Language:  Pascal (fpc 3.2)
-// Submitted: 2018-03-05 08:21 UTC
+// Submitted: 2018-03-15 08:49 UTC
 // Verdict:   Accepted
 
 var s:string;
