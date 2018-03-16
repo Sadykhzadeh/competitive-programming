@@ -1,7 +1,7 @@
 // Problem:   Negative elements (eolymp 921)
 // Link:      https://eolymp.com/problems/921
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-03-15 08:57 UTC
+// Submitted: 2018-03-16 05:10 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
