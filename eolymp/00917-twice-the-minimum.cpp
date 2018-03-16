@@ -1,7 +1,7 @@
 // Problem:   Twice the minimum (eolymp 917)
 // Link:      https://eolymp.com/problems/917
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-03-15 09:09 UTC
+// Submitted: 2018-03-16 05:09 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
