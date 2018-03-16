@@ -1,7 +1,7 @@
 // Problem:   Median number (eolymp 108)
 // Link:      https://eolymp.com/problems/108
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-03-03 20:28 UTC
+// Submitted: 2018-03-16 10:03 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
