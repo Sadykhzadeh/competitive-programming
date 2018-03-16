@@ -1,17 +1,18 @@
 // Problem:   Simple problem (eolymp 1)
 // Link:      https://eolymp.com/problems/1
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2017-12-10 13:29 UTC
+// Submitted: 2018-03-16 08:45 UTC
 // Verdict:   Accepted
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int main()
-{
-    int a;
-    cin >> a;
-    cout << a/10 << " " << a%10 <<endl;
-    return 0;
+int main(){
+int n , a ,b ;
+cin >> n;
+a = n % 10;
+b = n / 10;
+cout << b << " "<< a << endl;
+return 0;
 }
