@@ -1,7 +1,7 @@
 // Problem:   Two biggest (eolymp 7834)
 // Link:      https://eolymp.com/problems/7834
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-04-03 07:33 UTC
+// Submitted: 2018-04-04 03:51 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
