@@ -1,7 +1,7 @@
 // Problem:   The level of educational achievements (eolymp 902)
 // Link:      https://eolymp.com/problems/902
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-03-19 11:35 UTC
+// Submitted: 2018-07-11 17:22 UTC
 // Verdict:   Accepted
 
 #include <iostream>
