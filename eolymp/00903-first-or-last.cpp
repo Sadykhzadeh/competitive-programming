@@ -1,7 +1,7 @@
 // Problem:   First or last? (eolymp 903)
 // Link:      https://eolymp.com/problems/903
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-03-19 07:34 UTC
+// Submitted: 2018-07-11 17:23 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
