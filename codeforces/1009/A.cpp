@@ -2,7 +2,7 @@
 // Link:      https://codeforces.com/contest/1009/problem/A
 // Rating:    800   Tags: implementation
 // Language:  C++14 (GCC 6-32)
-// Submitted: 2018-07-16 10:24 UTC
+// Submitted: 2018-07-16 10:31 UTC
 // Verdict:   Accepted
 
 #include <iostream>
@@ -30,7 +30,7 @@ int main(){
       for(int i = 0 ; i < m ; i++) cin >> j[i];
       int k = 0 , i = 0;
       for(i = 0 ; i < n ; i++){
-            if(j[k] >= a[i]){ a[i] = -1; j[k] -= a[i]; k++;}
+            if(j[k] >= a[i]){ a[i] = -1; k++;}
       }
       int cnt = 0;
       for(int i = 0 ; i < n ; i++) if(a[i] == -1) cnt++;
