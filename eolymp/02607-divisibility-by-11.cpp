@@ -1,7 +1,7 @@
 // Problem:   Divisibility by 11 (eolymp 2607)
 // Link:      https://eolymp.com/problems/2607
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-07-22 19:00 UTC
+// Submitted: 2018-07-22 19:01 UTC
 // Verdict:   Accepted
 
 #include <iostream>
