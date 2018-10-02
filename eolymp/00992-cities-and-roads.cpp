@@ -1,7 +1,7 @@
 // Problem:   Cities and roads (eolymp 992)
 // Link:      https://eolymp.com/problems/992
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-07-15 09:20 UTC
+// Submitted: 2018-10-02 06:35 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
