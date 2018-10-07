@@ -1,7 +1,7 @@
 // Problem:   Digits (eolymp 2)
 // Link:      https://eolymp.com/problems/2
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2017-12-10 13:34 UTC
+// Submitted: 2018-10-07 19:14 UTC
 // Verdict:   Accepted
 
 #include <iostream>
