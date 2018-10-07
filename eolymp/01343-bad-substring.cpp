@@ -5,7 +5,7 @@
 // Verdict:   Accepted
 
 typedef long long ll;
-#define elif else if
+//#define elif else if
 #define pb push_back
 #define FAST_READ ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
