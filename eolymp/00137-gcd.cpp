@@ -1,7 +1,7 @@
 // Problem:   GCD (eolymp 137)
 // Link:      https://eolymp.com/problems/137
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-04-22 17:49 UTC
+// Submitted: 2018-10-09 14:04 UTC
 // Verdict:   Accepted
 
 #include <iostream>
