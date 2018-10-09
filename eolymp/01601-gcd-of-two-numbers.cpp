@@ -1,7 +1,7 @@
 // Problem:   GCD of two numbers (eolymp 1601)
 // Link:      https://eolymp.com/problems/1601
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-04-20 07:21 UTC
+// Submitted: 2018-10-09 14:04 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
