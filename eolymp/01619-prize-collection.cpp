@@ -1,7 +1,7 @@
 // Problem:   Prize Collection (eolymp 1619)
 // Link:      https://eolymp.com/problems/1619
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-16 09:47 UTC
+// Submitted: 2018-10-16 09:48 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
