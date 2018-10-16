@@ -1,7 +1,7 @@
 // Problem:   Sum of digits (eolymp 959)
 // Link:      https://eolymp.com/problems/959
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-05-18 10:30 UTC
+// Submitted: 2018-10-16 14:28 UTC
 // Verdict:   Accepted
 
 #include <iostream>
