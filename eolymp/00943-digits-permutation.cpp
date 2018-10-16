@@ -1,7 +1,7 @@
 // Problem:   Digits permutation (eolymp 943)
 // Link:      https://eolymp.com/problems/943
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-03-19 11:27 UTC
+// Submitted: 2018-10-16 14:22 UTC
 // Verdict:   Accepted
 
 #include <iostream>
