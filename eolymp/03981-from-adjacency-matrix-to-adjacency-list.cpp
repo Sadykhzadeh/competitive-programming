@@ -1,7 +1,7 @@
 // Problem:   From adjacency matrix to adjacency list (eolymp 3981)
 // Link:      https://eolymp.com/problems/3981
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-07-15 09:51 UTC
+// Submitted: 2018-10-21 22:08 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
