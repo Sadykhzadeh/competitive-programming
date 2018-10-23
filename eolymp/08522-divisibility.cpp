@@ -1,7 +1,7 @@
 // Problem:   Divisibility (eolymp 8522)
 // Link:      https://eolymp.com/problems/8522
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-07-11 17:21 UTC
+// Submitted: 2018-10-23 13:03 UTC
 // Verdict:   Accepted
 
 #include <iostream>
