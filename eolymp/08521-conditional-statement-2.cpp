@@ -1,7 +1,7 @@
 // Problem:   Conditional statement - 2 (eolymp 8521)
 // Link:      https://eolymp.com/problems/8521
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-09-30 17:40 UTC
+// Submitted: 2018-10-23 13:03 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
