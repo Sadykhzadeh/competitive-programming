@@ -1,7 +1,7 @@
 // Problem:   Fibonacci strings generation (eolymp 8295)
 // Link:      https://eolymp.com/problems/8295
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-09 13:36 UTC
+// Submitted: 2018-11-05 18:57 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
