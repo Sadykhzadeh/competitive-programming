@@ -1,7 +1,7 @@
 // Problem:   Factorial (eolymp 1658)
 // Link:      https://eolymp.com/problems/1658
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-09 09:28 UTC
+// Submitted: 2018-11-05 18:56 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
