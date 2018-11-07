@@ -1,7 +1,7 @@
 // Problem:   Number of divisors (eolymp 2862)
 // Link:      https://eolymp.com/problems/2862
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-05-19 20:11 UTC
+// Submitted: 2018-11-07 22:13 UTC
 // Verdict:   Accepted
 
 #include <iostream>
