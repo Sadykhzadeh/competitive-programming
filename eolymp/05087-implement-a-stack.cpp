@@ -1,7 +1,7 @@
 // Problem:   Implement a stack (eolymp 5087)
 // Link:      https://eolymp.com/problems/5087
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-15 09:11 UTC
+// Submitted: 2018-11-18 08:46 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
