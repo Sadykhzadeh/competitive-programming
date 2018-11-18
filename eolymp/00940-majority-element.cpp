@@ -1,7 +1,7 @@
 // Problem:   Majority Element (eolymp 940)
 // Link:      https://eolymp.com/problems/940
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-18 08:55 UTC
+// Submitted: 2018-11-18 08:57 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -12,19 +12,20 @@ using namespace std;
 
 #include <bits/stdc++.h>
 
+ll m[110] , n, maj(0), cnt(0), res(0); 
+
 int main(){
-	int m[110] , n;
-	int maj, cnt, res(0); 
 	cin >> n;
-	for(int i = 0; i < n; i++) cin >> m[i];
-	maj = 0; cnt = 0; 
+	for(int i = 0; i < n; i++) cin >> m[i]; 
 	for(int i = 0; i < n; i++){ 
-	if (cnt == 0) {maj = m[i]; cnt++;}  
-	elif (m[i] == maj) cnt++;
-	else cnt--; } 
+		if(cnt == 0){maj = m[i]; cnt++;}  
+		elif(m[i] == maj) cnt++;
+		else cnt--; 
+	} 
 	cnt = 0; 
-	for(int i = 0; i < n; i++) if (m[i] == maj) cnt++; 
-	if(2 * cnt > n) res = maj; else res = -1; 
+	for(int i = 0; i < n; i++) if(m[i] == maj) cnt++; 
+	if(2 * cnt > n) res = maj; 
+	else res = -1; 
 	cout << res << endl;
 	return 0;
 }
