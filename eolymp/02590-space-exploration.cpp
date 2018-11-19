@@ -1,7 +1,7 @@
 // Problem:   Space Exploration (eolymp 2590)
 // Link:      https://eolymp.com/problems/2590
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-18 08:37 UTC
+// Submitted: 2018-11-19 15:01 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
