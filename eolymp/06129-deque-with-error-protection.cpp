@@ -1,7 +1,7 @@
 // Problem:   Deque with error protection (eolymp 6129)
 // Link:      https://eolymp.com/problems/6129
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-16 21:09 UTC
+// Submitted: 2018-11-22 20:09 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
