@@ -1,7 +1,7 @@
 // Problem:   Book shelf (eolymp 8355)
 // Link:      https://eolymp.com/problems/8355
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-16 21:10 UTC
+// Submitted: 2018-11-23 19:26 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
