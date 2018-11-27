@@ -23,7 +23,7 @@ int main(){
 if(v < maxi) maxi = v;
 		m[v]++;
 	}
-	for(ll i = 0; i < maxi; i++) for(ll j = 0; j < m[i]; j++) cout<< i << ' ';
+	for(ll i = 0; i <= maxi; i++) for(ll j = 0; j < m[i]; j++) cout<< i << ' ';
 	cout << endl;
 	return 0;
 }
