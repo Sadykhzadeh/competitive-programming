@@ -1,7 +1,7 @@
 // Problem:   POJ 1674
 // Link:      http://poj.org/problem?id=1674
 // Language:  C++
-// Submitted: 2018-11-27 09:10 UTC
+// Submitted: 2018-11-27 09:11 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -10,7 +10,7 @@ typedef long long ll;
 
 using namespace std;
 
-#include <bits/stdc++.h>
+#include <iostream>
 
 
 ll i, n, tests, cnt, u, temp;
