@@ -1,7 +1,7 @@
 // Problem:   EOlymp 2327
 // Link:      https://eolymp.com/problems/2327
 // Language:  C++
-// Submitted: 2018-11-27 06:28 UTC
+// Submitted: 2018-11-27 06:32 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -20,7 +20,7 @@ int main(){
 	memset(m,0,sizeof(m));
 	for(ll i = 0; i < n; i++){
 		cin >> v;
-                if(v < maxi) maxi = v;
+                if(v > maxi) maxi = v;
 		m[v]++;
 	}
 	for(ll i = 0; i <= maxi; i++) for(ll j = 0; j < m[i]; j++) cout<< i << ' ';
