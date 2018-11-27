@@ -1,7 +1,7 @@
 // Problem:   EOlymp 2327
 // Link:      https://eolymp.com/problems/2327
 // Language:  C++
-// Submitted: 2018-11-27 05:41 UTC
+// Submitted: 2018-11-27 06:28 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -14,13 +14,13 @@ using namespace std;
 const ll RANGE = 1000450;
  
 ll m[100010], n, v;
-ll maxi = -38456;
+ll maxi = - LLONG_MAX;
 int main(){
 	cin >> n;
 	memset(m,0,sizeof(m));
 	for(ll i = 0; i < n; i++){
 		cin >> v;
-if(v < maxi) maxi = v;
+                if(v < maxi) maxi = v;
 		m[v]++;
 	}
 	for(ll i = 0; i <= maxi; i++) for(ll j = 0; j < m[i]; j++) cout<< i << ' ';
