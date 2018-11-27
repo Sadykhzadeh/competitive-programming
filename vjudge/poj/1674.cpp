@@ -1,8 +1,10 @@
 // Problem:   POJ 1674
 // Link:      http://poj.org/problem?id=1674
 // Language:  C++
-// Submitted: 2018-11-27 09:11 UTC
+// Submitted: 2018-11-27 09:17 UTC
 // Verdict:   Accepted
+
+#include <iostream>
 
 typedef long long ll;
 #define elif else if
@@ -10,12 +12,11 @@ typedef long long ll;
 
 using namespace std;
 
-#include <iostream>
 
 
 ll i, n, tests, cnt, u, temp;
 
-int m[10010];
+ll m[10010];
 
 int main(){
 	cin >> tests;
