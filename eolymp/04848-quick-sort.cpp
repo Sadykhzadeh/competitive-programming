@@ -1,7 +1,7 @@
 // Problem:   Quick Sort (eolymp 4848)
 // Link:      https://eolymp.com/problems/4848
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-05-18 20:12 UTC
+// Submitted: 2018-11-30 17:38 UTC
 // Verdict:   Accepted
 
 #include <iostream>
