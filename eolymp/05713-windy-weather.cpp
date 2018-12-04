@@ -1,7 +1,7 @@
 // Problem:   Windy weather (eolymp 5713)
 // Link:      https://eolymp.com/problems/5713
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-09-30 17:43 UTC
+// Submitted: 2018-12-04 08:20 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
