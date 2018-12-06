@@ -1,7 +1,7 @@
 // Problem:   Innohorse (eolymp 8643)
 // Link:      https://eolymp.com/problems/8643
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-12-06 04:00 UTC
+// Submitted: 2018-12-06 06:29 UTC
 // Verdict:   Accepted
 
 #include <iostream>
