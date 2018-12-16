@@ -14,6 +14,7 @@ using namespace std;
 #include <cstdio>
 #include <cstring>
 #include <vector>
+#include <climits>
 
 ll t, n, b, e, w;
 ll used[MAX], dist[MAX];
