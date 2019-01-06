@@ -1,7 +1,7 @@
 // Problem:   Express As The Sum (eolymp 8676)
 // Link:      https://eolymp.com/problems/8676
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-06 23:22 UTC
+// Submitted: 2019-01-06 23:38 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
