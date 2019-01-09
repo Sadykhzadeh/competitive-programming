@@ -1,7 +1,7 @@
 // Problem:   The heights of the triangle (eolymp 934)
 // Link:      https://eolymp.com/problems/934
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-05-02 08:59 UTC
+// Submitted: 2019-01-09 22:42 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
