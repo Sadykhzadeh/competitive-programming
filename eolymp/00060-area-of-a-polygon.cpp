@@ -1,7 +1,7 @@
 // Problem:   Area of a Polygon (eolymp 60)
 // Link:      https://eolymp.com/problems/60
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-05-02 08:00 UTC
+// Submitted: 2019-01-11 21:19 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
