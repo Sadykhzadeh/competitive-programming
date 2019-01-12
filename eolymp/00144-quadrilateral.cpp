@@ -1,7 +1,7 @@
 // Problem:   Quadrilateral (eolymp 144)
 // Link:      https://eolymp.com/problems/144
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-11 21:43 UTC
+// Submitted: 2019-01-12 20:33 UTC
 // Verdict:   Accepted
 
 //typedef long long ll;
