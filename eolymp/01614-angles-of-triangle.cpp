@@ -1,7 +1,7 @@
 // Problem:   Angles of triangle (eolymp 1614)
 // Link:      https://eolymp.com/problems/1614
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-09 22:43 UTC
+// Submitted: 2019-01-24 19:34 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
