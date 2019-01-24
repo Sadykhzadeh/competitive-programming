@@ -1,7 +1,7 @@
 // Problem:   Odd divisors (eolymp 2863)
 // Link:      https://eolymp.com/problems/2863
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-05-18 10:39 UTC
+// Submitted: 2019-01-24 19:06 UTC
 // Verdict:   Accepted
 
 #include <iostream>
