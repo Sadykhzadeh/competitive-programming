@@ -1,7 +1,7 @@
 // Problem:   Oversized Pancake Flipper (eolymp 8691)
 // Link:      https://eolymp.com/problems/8691
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-27 08:41 UTC
+// Submitted: 2019-01-27 08:57 UTC
 // Verdict:   Accepted
 
 typedef unsigned long long ll;
