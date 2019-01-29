@@ -1,7 +1,7 @@
 // Problem:   Sorting in Descending Order (eolymp 4738)
 // Link:      https://eolymp.com/problems/4738
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-30 17:38 UTC
+// Submitted: 2019-01-29 13:15 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
