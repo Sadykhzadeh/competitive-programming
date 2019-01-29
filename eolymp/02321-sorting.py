@@ -1,7 +1,7 @@
 # Problem:   Sorting (eolymp 2321)
 # Link:      https://eolymp.com/problems/2321
 # Language:  Python 3.14
-# Submitted: 2018-04-06 07:21 UTC
+# Submitted: 2019-01-29 13:15 UTC
 # Verdict:   Accepted
 
 n = int(input())
