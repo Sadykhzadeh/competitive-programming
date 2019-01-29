@@ -1,7 +1,7 @@
 // Problem:   Square of difference (eolymp 8317)
 // Link:      https://eolymp.com/problems/8317
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-30 17:40 UTC
+// Submitted: 2019-01-29 13:17 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
