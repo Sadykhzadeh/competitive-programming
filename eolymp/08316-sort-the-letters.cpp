@@ -1,7 +1,7 @@
 // Problem:   Sort the letters (eolymp 8316)
 // Link:      https://eolymp.com/problems/8316
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-30 17:39 UTC
+// Submitted: 2019-01-29 13:16 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
