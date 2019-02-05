@@ -1,7 +1,7 @@
 // Problem:   Bathroom Stalls (eolymp 8693)
 // Link:      https://eolymp.com/problems/8693
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-27 20:26 UTC
+// Submitted: 2019-02-05 13:30 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
