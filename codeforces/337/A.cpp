@@ -2,7 +2,7 @@
 // Link:      https://codeforces.com/contest/337/problem/A
 // Rating:    900   Tags: greedy
 // Language:  C++14 (GCC 6-32)
-// Submitted: 2019-02-25 08:55 UTC
+// Submitted: 2019-02-26 13:33 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -14,7 +14,7 @@ using namespace std;
 
 #include <bits/stdc++.h>
 
-ll m, n;
+ll n, m;
 vector <ll> a;
 
 int main(){
