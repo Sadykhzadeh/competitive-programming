@@ -1,7 +1,7 @@
 // Problem:   Subsequence (eolymp 988)
 // Link:      https://eolymp.com/problems/988
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-28 17:10 UTC
+// Submitted: 2019-04-07 19:15 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
