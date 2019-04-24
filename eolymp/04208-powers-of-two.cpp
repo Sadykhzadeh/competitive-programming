@@ -1,7 +1,7 @@
 // Problem:   Powers of two (eolymp 4208)
 // Link:      https://eolymp.com/problems/4208
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-04-09 22:14 UTC
+// Submitted: 2019-04-24 09:33 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
