@@ -1,7 +1,7 @@
 // Problem:   Honeycomb (eolymp 5092)
 // Link:      https://eolymp.com/problems/5092
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-05 19:23 UTC
+// Submitted: 2019-05-04 20:40 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
