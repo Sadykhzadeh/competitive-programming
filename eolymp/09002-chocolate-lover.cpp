@@ -1,7 +1,7 @@
 // Problem:   Chocolate lover (eolymp 9002)
 // Link:      https://eolymp.com/problems/9002
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-05-09 16:14 UTC
+// Submitted: 2019-05-13 09:40 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
