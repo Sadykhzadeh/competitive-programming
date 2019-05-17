@@ -1,7 +1,7 @@
 // Problem:   Olympiad in Hogwarts (eolymp 4857)
 // Link:      https://eolymp.com/problems/4857
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-02-22 20:44 UTC
+// Submitted: 2019-05-17 11:05 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
