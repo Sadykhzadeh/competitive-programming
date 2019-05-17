@@ -1,7 +1,7 @@
 // Problem:   Quadratic equation (eolymp 911)
 // Link:      https://eolymp.com/problems/911
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-04-14 07:59 UTC
+// Submitted: 2019-05-17 11:06 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
