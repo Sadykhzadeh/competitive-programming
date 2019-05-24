@@ -1,7 +1,7 @@
 // Problem:   Toasts (eolymp 510)
 // Link:      https://eolymp.com/problems/510
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-13 13:47 UTC
+// Submitted: 2019-05-24 21:45 UTC
 // Verdict:   Accepted
 
 typedef unsigned long long ll;
