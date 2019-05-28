@@ -1,7 +1,7 @@
 // Problem:   CodeChef CHFAR
 // Link:      https://www.codechef.com/problems/CHFAR
-// Language:  C++(gcc 6.3)
-// Submitted: 2019-05-28 19:04 UTC
+// Language:  C++14(gcc 6.3)
+// Submitted: 2019-05-28 19:06 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
