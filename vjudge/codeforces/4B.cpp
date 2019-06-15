@@ -1,7 +1,7 @@
 // Problem:   CodeForces 4B
 // Link:      https://codeforces.com/problemset/problem/4/B
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-15 11:22 UTC
+// Submitted: 2019-06-15 11:29 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -38,39 +38,26 @@ vector < pair <ll, ll> > a;
 
 int main(){
     F_READ;
-    cin >> d >> sum;
+    cin >> d >> sum; ll sum1, sum2; sum1 = sum2 = 0;
     for(ll i = 0; i < d; i++){
         ll s,x;
         cin >> s >> x;
-        a.pb({s,x});
+        a.pb({s,x}); sum1 += a[i].first; sum2 += a[i].second;
     }
-    for(ll i = 0; i < a.size() - 1; i++){
-        for(ll j = i + 1; j < a.size(); j++){
-            ll qwe = abs(a[i].first - a[i].second);
-            ll ewq = abs(a[j].first - a[j].second);
-            if(qwe > ewq){
-                swap(a[i].first, a[j].first);
-                swap(a[i].second, a[j].second);
-            }
-        }
+    if(sum1 > sum || sum2 < sum) COUT("NO");
+    if(sum1 == sum){
+        cout << "YES" << endl;
+        for(ll i = 0; i < d; i++) cout << a[i].first << ' '; return cout << endl, 0;
     }
-    //for(ll i = 0; i < a.size(); i++) qq2(a[i].first, a[i].second);
-    vector <ll> out;
     for(ll i = 0; i < d; i++){
-        if(sum < 0) COUT("NO");
-        if(a[i].first <= sum && sum <= a[i].second){
-            out.pb(sum);    sum -= sum;
+        while(a[i].first < a[i].second && sum != sum1){
+            sum1++; a[i].first++;
         }
-        elif(a[i].second < sum){
-            out.pb(a[i].second); sum -= a[i].second;
-        }
-        else{
-            ll j = a[i].second;
-            while(sum - j < 0) j--;
-            sum -= j; out.pb(j);
-        }
+        if(sum == sum1) break;
     }
-    if(sum > 0) COUT("NO");
-    cout << "YES" << endl;
-    for(ll i = 0; i < out.size(); i++) cout << out[i] << ' '; return cout << endl, 0;
+    if(sum == sum1){
+        cout << "YES" << endl;
+        for(ll i = 0; i < d; i++) cout << a[i].first << ' '; return cout << endl, 0;
+    }
+    else COUT("NO");
 }
