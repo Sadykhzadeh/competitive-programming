@@ -1,7 +1,7 @@
 // Problem:   CodeForces 4B
 // Link:      https://codeforces.com/problemset/problem/4/B
 // Language:  Microsoft Visual C++ 2010
-// Submitted: 2019-06-15 10:34 UTC
+// Submitted: 2019-06-15 10:36 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -30,7 +30,12 @@ Programming Language: C++
 
 using namespace std;
 
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+
+//For VS 2010
+#include <iostream>
+#include <vector>
+
 #define endl "\n"
 
 ll d, sum;
