@@ -1,7 +1,7 @@
 // Problem:   CodeForces 4B
 // Link:      https://codeforces.com/problemset/problem/4/B
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-15 10:38 UTC
+// Submitted: 2019-06-15 11:22 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -44,11 +44,25 @@ int main(){
         cin >> s >> x;
         a.pb({s,x});
     }
+    for(ll i = 0; i < a.size() - 1; i++){
+        for(ll j = i + 1; j < a.size(); j++){
+            ll qwe = abs(a[i].first - a[i].second);
+            ll ewq = abs(a[j].first - a[j].second);
+            if(qwe > ewq){
+                swap(a[i].first, a[j].first);
+                swap(a[i].second, a[j].second);
+            }
+        }
+    }
+    //for(ll i = 0; i < a.size(); i++) qq2(a[i].first, a[i].second);
     vector <ll> out;
     for(ll i = 0; i < d; i++){
         if(sum < 0) COUT("NO");
         if(a[i].first <= sum && sum <= a[i].second){
             out.pb(sum);    sum -= sum;
+        }
+        elif(a[i].second < sum){
+            out.pb(a[i].second); sum -= a[i].second;
         }
         else{
             ll j = a[i].second;
