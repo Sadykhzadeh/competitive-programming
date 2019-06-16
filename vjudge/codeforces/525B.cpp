@@ -1,7 +1,7 @@
 // Problem:   CodeForces 525B
 // Link:      https://codeforces.com/problemset/problem/525/B
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-16 22:11 UTC
+// Submitted: 2019-06-16 22:22 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -28,6 +28,7 @@ Programming Language: C++
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize ("unroll-loops")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+#define _CRT_SECURE_NO_WARNINGS
 
 using namespace std;
 
@@ -35,28 +36,28 @@ using namespace std;
 #define endl "\n"
 
 int main(){
-    string s;ll n;
+    F_READ;
+    string s; ll n;
     cin >> s >> n;
     vector < pair <ll, bool > >a;
     for(ll i = 0; i < n; i++){
         ll temp; cin >> temp;
         a.pb({temp-1, true});
     }
+    if(s.length() == 1) COUT(s);
     sort(a.begin(), a.end());
-    if(a.size() >= 2)
+    if(n >= 2)
     for(ll i = 1; i < n; i++){
         if(a[i].first == a[i-1].first && a[i].second && a[i-1].second){
             a[i].second = a[i-1].second = false;
         }
     }
     for(ll i = 0; i < n; i++){
-
-        if(a[i].second == true){
+        if(!a[i].second) continue;
             for(ll j = a[i].first; j < s.length()/2; j++){
                 //qq2(s[j], s[s.length() - j - 1]);
                 swap(s[j], s[s.length() - j - 1]);
             }
-        }
     }
     cout << s << endl;
 }
