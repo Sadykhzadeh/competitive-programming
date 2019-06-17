@@ -1,7 +1,7 @@
 // Problem:   CodeForces 282C
 // Link:      https://codeforces.com/problemset/problem/282/C
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-17 14:22 UTC
+// Submitted: 2019-06-17 14:24 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -47,7 +47,7 @@ int main(){
         if(a[i] == '1') k++;
         if(b[i] == '1') k1++;
     }
-    if(!k && !k1) COUT("YES");
-    elif(!k || !k1) COUT("NO");
+    if(!k && !k1) {COUT("YES");}
+    elif(!k || !k1){COUT("NO");}
     else COUT("YES");
 }
