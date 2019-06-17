@@ -1,7 +1,7 @@
 // Problem:   CodeForces 525B
 // Link:      https://codeforces.com/problemset/problem/525/B
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-17 14:47 UTC
+// Submitted: 2019-06-17 14:49 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -39,7 +39,9 @@ string s;
 ll n;
 vector <ll> a;
 
-    ll sum[20000];
+    ll sum[250000];
+
+
 int main(){
     F_READ;
     cin >> s >> n;
