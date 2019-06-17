@@ -1,7 +1,7 @@
 // Problem:   CodeForces 525B
 // Link:      https://codeforces.com/problemset/problem/525/B
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-17 14:41 UTC
+// Submitted: 2019-06-17 14:47 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -42,13 +42,9 @@ vector <ll> a;
 int main(){
     F_READ;
     cin >> s >> n;
-    for(ll i = 0; i < n; i++){
-        ll temp; cin >> temp; a.pb(temp);
-    }
-    sort(a.begin(), a.end());
     ll sum[20000];
     for(ll i = 0; i < n; i++){
-        sum[a[i]]++;
+        ll temp; cin >> temp; sum[temp]++;
     }
     ll ans = 0;
     for(ll i = 1; i <= s.size() / 2; i++){
