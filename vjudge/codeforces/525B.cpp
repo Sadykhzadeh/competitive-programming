@@ -1,7 +1,7 @@
 // Problem:   CodeForces 525B
 // Link:      https://codeforces.com/problemset/problem/525/B
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-16 22:22 UTC
+// Submitted: 2019-06-17 14:41 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -35,29 +35,27 @@ using namespace std;
 #include <bits/stdc++.h>
 #define endl "\n"
 
+string s;
+ll n;
+vector <ll> a;
+
 int main(){
     F_READ;
-    string s; ll n;
     cin >> s >> n;
-    vector < pair <ll, bool > >a;
     for(ll i = 0; i < n; i++){
-        ll temp; cin >> temp;
-        a.pb({temp-1, true});
+        ll temp; cin >> temp; a.pb(temp);
     }
-    if(s.length() == 1) COUT(s);
     sort(a.begin(), a.end());
-    if(n >= 2)
-    for(ll i = 1; i < n; i++){
-        if(a[i].first == a[i-1].first && a[i].second && a[i-1].second){
-            a[i].second = a[i-1].second = false;
+    ll sum[20000];
+    for(ll i = 0; i < n; i++){
+        sum[a[i]]++;
+    }
+    ll ans = 0;
+    for(ll i = 1; i <= s.size() / 2; i++){
+        ans += sum[i];
+        if(ans % 2){
+            swap(s[i-1],s[s.size()-i]);
         }
     }
-    for(ll i = 0; i < n; i++){
-        if(!a[i].second) continue;
-            for(ll j = a[i].first; j < s.length()/2; j++){
-                //qq2(s[j], s[s.length() - j - 1]);
-                swap(s[j], s[s.length() - j - 1]);
-            }
-    }
-    cout << s << endl;
+    COUT(s);
 }
