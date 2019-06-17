@@ -39,10 +39,10 @@ string s;
 ll n;
 vector <ll> a;
 
+    ll sum[20000];
 int main(){
     F_READ;
     cin >> s >> n;
-    ll sum[20000];
     for(ll i = 0; i < n; i++){
         ll temp; cin >> temp; sum[temp]++;
     }
