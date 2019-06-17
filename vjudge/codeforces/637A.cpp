@@ -1,7 +1,7 @@
 // Problem:   CodeForces 637A
 // Link:      https://codeforces.com/problemset/problem/637/A
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-17 13:31 UTC
+// Submitted: 2019-06-17 13:34 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -52,8 +52,8 @@ int main(){
         }
         if(!u){
             a.pb({temp, 1});
-            if(ti < a[i].second){
-                ti = a[i].second;  ans = a[i].first;
+            if(ti < a[a.size() - 1].second){
+                ti = a[a.size() - 1].second;  ans = a[a.size() - 1].first;
             }
         }
     }
