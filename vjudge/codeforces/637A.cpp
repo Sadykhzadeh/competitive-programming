@@ -1,7 +1,7 @@
 // Problem:   CodeForces 637A
 // Link:      https://codeforces.com/problemset/problem/637/A
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-17 13:29 UTC
+// Submitted: 2019-06-17 13:31 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -44,9 +44,9 @@ int main(){
         ll temp; cin >> temp;
         bool u = false;
         for(ll j = 0; j < a.size(); j++){
-            if(a[i].first == temp){a[i].second++;
-            if(ti < a[i].second){
-                ti = a[i].second;  ans = a[i].first;
+            if(a[j].first == temp){a[j].second++;
+            if(ti < a[j].second){
+                ti = a[j].second;  ans = a[j].first;
             }
             u = true; break;}
         }
