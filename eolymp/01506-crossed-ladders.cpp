@@ -1,7 +1,7 @@
 // Problem:   Crossed Ladders (eolymp 1506)
 // Link:      https://eolymp.com/problems/1506
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-04-30 19:35 UTC
+// Submitted: 2019-06-21 14:33 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
