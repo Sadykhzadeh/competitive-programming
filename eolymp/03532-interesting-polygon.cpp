@@ -1,7 +1,7 @@
 // Problem:   Interesting polygon (eolymp 3532)
 // Link:      https://eolymp.com/problems/3532
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-05-04 10:04 UTC
+// Submitted: 2019-06-21 14:33 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
