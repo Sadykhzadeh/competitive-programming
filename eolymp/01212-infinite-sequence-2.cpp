@@ -1,7 +1,7 @@
 // Problem:   Infinite Sequence - 2 (eolymp 1212)
 // Link:      https://eolymp.com/problems/1212
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-02-05 13:37 UTC
+// Submitted: 2019-06-28 15:15 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
