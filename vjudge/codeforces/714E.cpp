@@ -1,7 +1,7 @@
 // Problem:   CodeForces 714E
 // Link:      https://codeforces.com/problemset/problem/714/E
 // Language:  GNU G++14 6.4.0
-// Submitted: 2019-06-28 13:03 UTC
+// Submitted: 2019-06-28 13:07 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -53,7 +53,7 @@ int main(){
     sort(sor.begin(), sor.end());
     for(ll i = 1; i <= n; i++) dp[i][0] = 99999999999;
     for(ll i = 1; i <= n; i++){
-        for(ll j = 1; j <= n; i++){
+        for(ll j = 1; j <= n; j++){
             dp[i][j] = min(dp[i][j-1], dp[i-1][j] + abs(b[i]-sor[j]));
         }
     }
