@@ -1,0 +1,57 @@
+// Problem:   Deli Deli (eolymp 3836)
+// Link:      https://eolymp.com/problems/3836
+// Language:  C++ 20 (gnu 14.2)
+// Submitted: 2019-07-26 11:30 UTC
+// Verdict:   Accepted
+
+# include <iostream>
+# include <string.h>
+
+char dict[25][2][25];
+int n, m;
+
+int find(char s[])
+{
+	int i;
+	for (i = 0; i < n; i++) if (strcmp(s, dict[i][0]) == 0) return i;
+	return -1;
+}
+
+int consonant(char ch)
+{
+	int i;
+	char tab[] = "aeiou";
+	for (i = 0; i < 5; i++) if (ch == tab[i]) return 0;
+	return 1;
+}
+
+int main()
+{
+	char str[25];
+	int i, len, pos;
+	scanf("%d%d", &n, &m);
+	for (i = 0; i < n; i++) scanf("%s %s", dict[i][0], dict[i][1]);
+	for (i = 0; i < m; i++)
+	{
+		scanf("%s", str);
+		len = strlen(str);
+		if ((pos = find(str)) != -1) puts(dict[pos][1]);
+		else if (len > 1 && str[len - 1] == 'y' && consonant(str[len - 2]))
+		{
+			str[len - 1] = '\0';
+			strcat(str, "ies");
+			puts(str);
+		}
+		else if (str[len - 1] == 'o' || str[len - 1] == 's' || str[len - 1] == 'x' || len>1 && (str[len - 1] == 'h' && (str[len - 2] == 'c' || str[len - 2] == 's')))
+		{
+			strcat(str, "es");
+			puts(str);
+		}
+		else
+		{
+			strcat(str, "s");
+			puts(str);
+		}
+	}
+	return 0;
+}
