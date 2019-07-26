@@ -1,0 +1,64 @@
+// Problem:   Spiral (eolymp 5057)
+// Link:      https://eolymp.com/problems/5057
+// Language:  C# (Mono 5.20)
+// Submitted: 2019-07-26 11:22 UTC
+// Verdict:   Accepted
+
+using System;
+
+namespace Problem5057
+{
+    internal class Program
+    {
+        public static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            int[,] a = new int[n, n];
+            int i = 0;
+            int j = -1;
+            int say = 1;
+            string istiqamet = "saga";
+            int kv = n*n;
+            while (say <= kv)
+            {
+                if (istiqamet == "saga")
+                {
+                    j++;
+                    while ((j < n) && (a[i, j] == 0)) a[i, j++] = say++;
+                    j--;
+                    istiqamet = "asagi";
+                }
+                if (istiqamet == "asagi")
+                {
+                    i++;
+                    while ((i < n) && (a[i, j] == 0)) a[i++, j] = say++;
+                    i--;
+                    istiqamet = "sola";
+                }
+                if (istiqamet == "sola")
+                {
+                    j--;
+                    while ((j >= 0) && (a[i, j] == 0)) a[i, j--] = say++;
+                    j++;
+                    istiqamet = "yuxari";
+                }
+                if (istiqamet == "yuxari")
+                {
+                    i--;
+                    while ((i >= 0) && (a[i, j] == 0)) a[i--, j] = say++;
+                    i++;
+                    istiqamet = "saga";
+                }
+            }
+            for (i = 0; i < n; i++)
+            {
+                for (j = 0; j < n; j++)
+                {
+                    Console.Write(a[i, j]);
+                    if (j < n - 1) Console.Write(" ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
