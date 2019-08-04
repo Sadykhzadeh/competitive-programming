@@ -1,23 +1,23 @@
 // Problem:   Digits (eolymp 2)
 // Link:      https://eolymp.com/problems/2
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-07-26 16:00 UTC
+// Submitted: 2019-08-04 12:31 UTC
 // Verdict:   Accepted
 
-typedef long long ll;
-/*
-id: sadykhzadeh -> @Azer_Sadykhzadeh
-Programming Language: (C++)
-*/
-using namespace std;
 #include <iostream>
 
+using namespace std;
+
 int main(){
-    ll n, i(0);
-    cin >> n;
-    if(!n) return cout << 1 << endl, 0;
-    while(n){
-        n/=10;i++;
+    int a, cavab = 0;
+    cin >> a;
+    if(a == 0){
+         cout << 1 << endl;
+         return 0;
     }
-    return cout << i << endl, 0;
+    while(a != 0){
+        a = a / 10;
+        cavab++; // cavab = cavab + 1;
+    }
+    cout << cavab << endl;
 }
