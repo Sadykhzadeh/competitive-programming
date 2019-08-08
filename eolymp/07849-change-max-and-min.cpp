@@ -1,7 +1,7 @@
 // Problem:   Change max and min (eolymp 7849)
 // Link:      https://eolymp.com/problems/7849
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-05 08:39 UTC
+// Submitted: 2019-08-08 14:52 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
