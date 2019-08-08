@@ -1,7 +1,7 @@
 // Problem:   The sum of the largest and the smallest (eolymp 928)
 // Link:      https://eolymp.com/problems/928
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-02 08:44 UTC
+// Submitted: 2019-08-08 14:48 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
