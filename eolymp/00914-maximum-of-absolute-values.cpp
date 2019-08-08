@@ -1,7 +1,7 @@
 // Problem:   Maximum of absolute values (eolymp 914)
 // Link:      https://eolymp.com/problems/914
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-05-13 19:44 UTC
+// Submitted: 2019-08-08 14:47 UTC
 // Verdict:   Accepted
 
 #include <iostream>
