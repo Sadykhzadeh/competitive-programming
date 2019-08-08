@@ -1,7 +1,7 @@
 // Problem:   Larger than neighbors (eolymp 7845)
 // Link:      https://eolymp.com/problems/7845
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-18 08:45 UTC
+// Submitted: 2019-08-08 14:51 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
