@@ -1,7 +1,7 @@
 // Problem:   All digits are even (eolymp 8628)
 // Link:      https://eolymp.com/problems/8628
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-13 11:49 UTC
+// Submitted: 2019-08-09 20:06 UTC
 // Verdict:   Accepted
 
 #include <iostream>
