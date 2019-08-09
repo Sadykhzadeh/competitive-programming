@@ -1,7 +1,7 @@
 // Problem:   Square of maximum (eolymp 8623)
 // Link:      https://eolymp.com/problems/8623
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-11 08:54 UTC
+// Submitted: 2019-08-09 20:06 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
