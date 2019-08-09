@@ -1,7 +1,7 @@
 // Problem:   Five-digit in order (eolymp 8619)
 // Link:      https://eolymp.com/problems/8619
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-11 08:30 UTC
+// Submitted: 2019-08-09 20:05 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
