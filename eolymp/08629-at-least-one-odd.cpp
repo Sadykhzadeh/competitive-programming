@@ -1,7 +1,7 @@
 // Problem:   At least one odd (eolymp 8629)
 // Link:      https://eolymp.com/problems/8629
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-11 08:40 UTC
+// Submitted: 2019-08-09 20:06 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
