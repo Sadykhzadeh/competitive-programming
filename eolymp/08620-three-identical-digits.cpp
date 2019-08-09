@@ -1,7 +1,7 @@
 // Problem:   Three identical digits (eolymp 8620)
 // Link:      https://eolymp.com/problems/8620
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-11 08:35 UTC
+// Submitted: 2019-08-09 20:05 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
