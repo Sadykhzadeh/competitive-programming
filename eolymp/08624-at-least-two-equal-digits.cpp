@@ -1,7 +1,7 @@
 // Problem:   At least two equal digits (eolymp 8624)
 // Link:      https://eolymp.com/problems/8624
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-13 11:53 UTC
+// Submitted: 2019-08-09 20:06 UTC
 // Verdict:   Accepted
 
 #include <iostream>
