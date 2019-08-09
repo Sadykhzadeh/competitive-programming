@@ -1,7 +1,7 @@
 // Problem:   Two digits in a row (eolymp 8626)
 // Link:      https://eolymp.com/problems/8626
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-13 11:47 UTC
+// Submitted: 2019-08-09 20:06 UTC
 // Verdict:   Accepted
 
 #include <iostream>
