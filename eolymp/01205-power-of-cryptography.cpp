@@ -1,7 +1,7 @@
 // Problem:   Power of Cryptography (eolymp 1205)
 // Link:      https://eolymp.com/problems/1205
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-06 08:58 UTC
+// Submitted: 2019-08-11 19:16 UTC
 // Verdict:   Accepted
 
 #include <iostream>
