@@ -1,7 +1,7 @@
 // Problem:   Function - 3 (eolymp 8241)
 // Link:      https://eolymp.com/problems/8241
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-09-30 18:05 UTC
+// Submitted: 2019-08-11 19:15 UTC
 // Verdict:   Accepted
 
 typedef long double ll;
