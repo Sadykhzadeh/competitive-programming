@@ -1,7 +1,7 @@
 // Problem:   Sources and sinks (eolymp 3986)
 // Link:      https://eolymp.com/problems/3986
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-19 17:42 UTC
+// Submitted: 2019-08-12 18:08 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
