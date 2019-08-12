@@ -1,7 +1,7 @@
 // Problem:   Number of pendant vertices 1 (eolymp 5080)
 // Link:      https://eolymp.com/problems/5080
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-19 16:59 UTC
+// Submitted: 2019-08-12 18:09 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
