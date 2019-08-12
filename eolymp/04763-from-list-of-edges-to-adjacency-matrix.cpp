@@ -1,7 +1,7 @@
 // Problem:   From list of edges to adjacency matrix (eolymp 4763)
 // Link:      https://eolymp.com/problems/4763
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-21 22:18 UTC
+// Submitted: 2019-08-12 18:08 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
