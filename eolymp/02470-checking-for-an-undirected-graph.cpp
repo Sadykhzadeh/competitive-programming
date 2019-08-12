@@ -1,7 +1,7 @@
 // Problem:   Checking for an undirected graph (eolymp 2470)
 // Link:      https://eolymp.com/problems/2470
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-05-09 18:38 UTC
+// Submitted: 2019-08-12 18:07 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
