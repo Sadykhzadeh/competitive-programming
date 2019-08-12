@@ -1,7 +1,7 @@
 // Problem:   Regular graph (eolymp 5076)
 // Link:      https://eolymp.com/problems/5076
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-20 21:50 UTC
+// Submitted: 2019-08-12 18:09 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
