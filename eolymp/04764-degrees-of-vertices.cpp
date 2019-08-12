@@ -1,7 +1,7 @@
 // Problem:   Degrees of vertices (eolymp 4764)
 // Link:      https://eolymp.com/problems/4764
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-19 16:49 UTC
+// Submitted: 2019-08-12 18:08 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
