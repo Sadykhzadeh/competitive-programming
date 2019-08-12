@@ -1,7 +1,7 @@
 // Problem:   Count the number of edges (eolymp 5072)
 // Link:      https://eolymp.com/problems/5072
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-07-15 09:30 UTC
+// Submitted: 2019-08-12 18:08 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
