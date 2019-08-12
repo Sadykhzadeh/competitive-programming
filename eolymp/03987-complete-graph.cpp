@@ -1,7 +1,7 @@
 // Problem:   Complete graph (eolymp 3987)
 // Link:      https://eolymp.com/problems/3987
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-21 21:35 UTC
+// Submitted: 2019-08-12 18:07 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
