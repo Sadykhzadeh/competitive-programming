@@ -1,7 +1,7 @@
 // Problem:   Template (eolymp 8946)
 // Link:      https://eolymp.com/problems/8946
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-08-16 12:28 UTC
+// Submitted: 2019-08-26 20:27 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
