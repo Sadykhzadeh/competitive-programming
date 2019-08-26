@@ -1,7 +1,7 @@
 // Problem:   Strip (eolymp 8937)
 // Link:      https://eolymp.com/problems/8937
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-08-15 19:20 UTC
+// Submitted: 2019-08-26 20:25 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
