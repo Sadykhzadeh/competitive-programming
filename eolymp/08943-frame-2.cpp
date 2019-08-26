@@ -1,7 +1,7 @@
 // Problem:   *Frame 2 (eolymp 8943)
 // Link:      https://eolymp.com/problems/8943
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-08-15 19:26 UTC
+// Submitted: 2019-08-26 20:26 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
