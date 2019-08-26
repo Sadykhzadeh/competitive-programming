@@ -1,7 +1,7 @@
 // Problem:   #Rectangle 2 (eolymp 8939)
 // Link:      https://eolymp.com/problems/8939
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-08-15 19:18 UTC
+// Submitted: 2019-08-26 20:26 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
