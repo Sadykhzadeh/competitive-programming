@@ -1,7 +1,7 @@
 // Problem:   Coins (eolymp 2218)
 // Link:      https://eolymp.com/problems/2218
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-06-13 10:51 UTC
+// Submitted: 2019-08-30 17:20 UTC
 // Verdict:   Accepted
 
 #include <iostream>
