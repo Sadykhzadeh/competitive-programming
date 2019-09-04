@@ -1,7 +1,7 @@
 // Problem:   Tidy Numbers (eolymp 8692)
 // Link:      https://eolymp.com/problems/8692
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-01-27 13:48 UTC
+// Submitted: 2019-09-04 18:41 UTC
 // Verdict:   Accepted
 
 typedef unsigned long long ll;
