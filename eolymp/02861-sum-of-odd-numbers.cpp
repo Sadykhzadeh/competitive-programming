@@ -1,7 +1,7 @@
 // Problem:   Sum of odd numbers (eolymp 2861)
 // Link:      https://eolymp.com/problems/2861
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-02-04 20:04 UTC
+// Submitted: 2019-09-07 12:06 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
