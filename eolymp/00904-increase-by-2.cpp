@@ -1,7 +1,7 @@
 // Problem:   Increase by 2 (eolymp 904)
 // Link:      https://eolymp.com/problems/904
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-04-05 05:33 UTC
+// Submitted: 2019-09-14 11:24 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
