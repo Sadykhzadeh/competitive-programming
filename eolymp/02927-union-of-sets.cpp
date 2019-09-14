@@ -1,7 +1,7 @@
 // Problem:   Union of Sets (eolymp 2927)
 // Link:      https://eolymp.com/problems/2927
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-12-02 09:10 UTC
+// Submitted: 2019-09-14 11:59 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
