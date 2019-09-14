@@ -1,7 +1,7 @@
 // Problem:   Tournament (eolymp 3002)
 // Link:      https://eolymp.com/problems/3002
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-06-13 10:12 UTC
+// Submitted: 2019-09-14 08:05 UTC
 // Verdict:   Accepted
 
 #include <iostream>
