@@ -1,7 +1,7 @@
 // Problem:   Sum without maximum (eolymp 7831)
 // Link:      https://eolymp.com/problems/7831
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-08-08 14:52 UTC
+// Submitted: 2019-09-14 11:59 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
