@@ -1,7 +1,7 @@
 // Problem:   Vocabulary (eolymp 5089)
 // Link:      https://eolymp.com/problems/5089
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-12-02 22:13 UTC
+// Submitted: 2019-09-14 11:24 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
