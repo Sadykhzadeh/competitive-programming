@@ -1,7 +1,7 @@
 // Problem:   All odd (eolymp 8915)
 // Link:      https://eolymp.com/problems/8915
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-08-12 12:29 UTC
+// Submitted: 2019-09-14 08:06 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
