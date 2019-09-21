@@ -1,7 +1,7 @@
 # Problem:   Second digit of the number (eolymp 1605)
 # Link:      https://eolymp.com/problems/1605
 # Language:  Python 3.14
-# Submitted: 2018-12-04 08:23 UTC
+# Submitted: 2019-09-21 16:50 UTC
 # Verdict:   Accepted
 
 i = input()
