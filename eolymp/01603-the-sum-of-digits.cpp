@@ -1,7 +1,7 @@
 // Problem:   The sum of digits (eolymp 1603)
 // Link:      https://eolymp.com/problems/1603
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-09-21 16:49 UTC
+// Submitted: 2019-09-21 16:50 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
