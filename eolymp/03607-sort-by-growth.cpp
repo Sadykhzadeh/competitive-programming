@@ -1,7 +1,7 @@
 // Problem:   Sort by growth (eolymp 3607)
 // Link:      https://eolymp.com/problems/3607
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-09-26 19:51 UTC
+// Submitted: 2019-09-26 19:54 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -10,8 +10,8 @@ typedef unsigned long long ull;
 id: sadykhzadeh -> @Azer_Sadykhzadeh
 Programming Language: (C++)
 */
-#define qq2(x,y) cout << (#x) << " = " << (x) << '\t' << (#y) << " = " << (y) << endl
-#define qq(x) cout << (#x) << " = " << (x) << endl
+#define qq2(x,y) cerr << (#x) << " = " << (x) << '\t' << (#y) << " = " << (y) << endl
+#define qq(x) cerr << (#x) << " = " << (x) << endl
 #define elif else if
 #define pb push_back
 #define ins insert
@@ -58,7 +58,7 @@ vector <ll> vec;
         for(ll i = 0; i < n; i++){
             if(vec[i] >= a && vec[i] <= b){
                 cnt++;
-          //      qq(vec[i]);
+                //qq(vec[i]);
             }
         }
         cout << cnt << endl;
