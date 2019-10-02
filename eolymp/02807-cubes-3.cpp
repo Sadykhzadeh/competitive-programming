@@ -1,7 +1,7 @@
 // Problem:   Cubes - 3 (eolymp 2807)
 // Link:      https://eolymp.com/problems/2807
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-03-12 07:56 UTC
+// Submitted: 2019-10-02 09:43 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
