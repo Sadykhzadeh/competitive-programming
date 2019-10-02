@@ -1,7 +1,7 @@
 // Problem:   Von Neumann`s Fly (eolymp 6388)
 // Link:      https://eolymp.com/problems/6388
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-05-24 21:45 UTC
+// Submitted: 2019-10-02 09:53 UTC
 // Verdict:   Accepted
 
 #include<bits/stdc++.h>
