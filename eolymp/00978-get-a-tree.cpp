@@ -1,7 +1,7 @@
 // Problem:   Get a tree (eolymp 978)
 // Link:      https://eolymp.com/problems/978
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-21 21:20 UTC
+// Submitted: 2019-10-03 06:18 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
