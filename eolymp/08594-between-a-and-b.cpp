@@ -1,7 +1,7 @@
 // Problem:   Between A and B (eolymp 8594)
 // Link:      https://eolymp.com/problems/8594
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-08-11 20:48 UTC
+// Submitted: 2019-10-03 05:43 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
