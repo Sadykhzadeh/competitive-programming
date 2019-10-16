@@ -1,7 +1,7 @@
 // Problem:   Interesting fun of Yura (eolymp 8324)
 // Link:      https://eolymp.com/problems/8324
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-12-03 04:27 UTC
+// Submitted: 2019-10-16 20:46 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
