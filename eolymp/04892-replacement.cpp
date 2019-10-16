@@ -1,7 +1,7 @@
 // Problem:   Replacement (eolymp 4892)
 // Link:      https://eolymp.com/problems/4892
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-12-04 08:28 UTC
+// Submitted: 2019-10-16 20:51 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
