@@ -1,7 +1,7 @@
 // Problem:   Binary Search Tree 1 (eolymp 4146)
 // Link:      https://eolymp.com/problems/4146
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-09-14 11:59 UTC
+// Submitted: 2019-10-16 20:47 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
