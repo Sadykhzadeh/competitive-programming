@@ -1,7 +1,7 @@
 // Problem:   Binary search (eolymp 9016)
 // Link:      https://eolymp.com/problems/9016
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-06-30 13:29 UTC
+// Submitted: 2019-10-21 22:05 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
