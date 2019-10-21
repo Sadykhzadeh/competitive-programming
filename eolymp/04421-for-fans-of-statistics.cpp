@@ -1,7 +1,7 @@
 // Problem:   For fans of statistics (eolymp 4421)
 // Link:      https://eolymp.com/problems/4421
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-04-30 21:55 UTC
+// Submitted: 2019-10-21 22:06 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
