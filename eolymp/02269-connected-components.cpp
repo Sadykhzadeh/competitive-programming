@@ -1,7 +1,7 @@
 // Problem:   Connected components (eolymp 2269)
 // Link:      https://eolymp.com/problems/2269
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-10-03 06:18 UTC
+// Submitted: 2019-11-07 12:13 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
