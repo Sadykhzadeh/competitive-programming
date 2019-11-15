@@ -1,7 +1,7 @@
 // Problem:   Counting Ones (eolymp 6583)
 // Link:      https://eolymp.com/problems/6583
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-25 21:45 UTC
+// Submitted: 2019-11-15 20:23 UTC
 // Verdict:   Accepted
 
 typedef unsigned long long ll;
