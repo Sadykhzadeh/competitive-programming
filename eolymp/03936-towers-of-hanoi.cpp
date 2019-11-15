@@ -1,7 +1,7 @@
 // Problem:   Towers of Hanoi (eolymp 3936)
 // Link:      https://eolymp.com/problems/3936
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-11-09 07:23 UTC
+// Submitted: 2019-11-15 20:22 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
