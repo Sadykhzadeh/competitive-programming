@@ -1,7 +1,7 @@
 // Problem:   Fun function (eolymp 8304)
 // Link:      https://eolymp.com/problems/8304
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-05 18:57 UTC
+// Submitted: 2019-11-15 20:22 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
