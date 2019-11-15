@@ -1,7 +1,7 @@
 // Problem:   Symmetry (eolymp 165)
 // Link:      https://eolymp.com/problems/165
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-04-06 19:25 UTC
+// Submitted: 2019-11-15 20:23 UTC
 // Verdict:   Accepted
 
 #include <bits/stdc++.h>
