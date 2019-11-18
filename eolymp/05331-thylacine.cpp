@@ -1,7 +1,7 @@
 // Problem:   Thylacine (eolymp 5331)
 // Link:      https://eolymp.com/problems/5331
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-12-09 08:04 UTC
+// Submitted: 2019-11-18 19:55 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
