@@ -1,7 +1,7 @@
 // Problem:   Topological Sort (eolymp 1948)
 // Link:      https://eolymp.com/problems/1948
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-10-31 20:32 UTC
+// Submitted: 2019-12-10 18:14 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
