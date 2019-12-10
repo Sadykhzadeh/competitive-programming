@@ -1,7 +1,7 @@
 // Problem:   Is it a Tree? (eolymp 977)
 // Link:      https://eolymp.com/problems/977
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-10-03 06:17 UTC
+// Submitted: 2019-12-10 18:13 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
