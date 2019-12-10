@@ -1,7 +1,7 @@
 // Problem:   Area of the room (eolymp 4001)
 // Link:      https://eolymp.com/problems/4001
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-20 13:10 UTC
+// Submitted: 2019-12-10 18:14 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
