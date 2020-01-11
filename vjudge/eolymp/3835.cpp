@@ -1,7 +1,7 @@
 // Problem:   EOlymp 3835
 // Link:      https://eolymp.com/problems/3835
 // Language:  C++
-// Submitted: 2020-01-11 08:05 UTC
+// Submitted: 2020-01-11 08:06 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -46,7 +46,6 @@ cerr << "Автор: Азер Садыхзаде" << endl;}
 #include <bits/stdc++.h>
 using namespace std;
 ll m, n;
-vector< tuple <ll, ll, ll> > g(m);
 
 ll val = 0;
 vector <pair<ll, ll> >ans;
@@ -54,6 +53,7 @@ vector <pair<ll, ll> >ans;
 int main(){
     F_READ;
     cin >> m >> n;
+    vector< tuple <ll, ll, ll> > g(m);
     for(ll i = 0; i < m; i++){
         ll q, w, e;
         cin >> q >> w >> e;
