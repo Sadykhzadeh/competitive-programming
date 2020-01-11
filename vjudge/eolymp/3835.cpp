@@ -1,7 +1,7 @@
 // Problem:   EOlymp 3835
 // Link:      https://eolymp.com/problems/3835
 // Language:  C++
-// Submitted: 2020-01-11 08:06 UTC
+// Submitted: 2020-01-11 08:18 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -59,7 +59,6 @@ int main(){
         cin >> q >> w >> e;
         q--; w--;
         g.pb({e,q,w});
-        g.pb({e,w,q});
     }
     sort (g.begin(), g.end());
     vector<ll> tree_id (n);
