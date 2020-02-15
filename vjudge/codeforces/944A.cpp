@@ -1,11 +1,10 @@
 // Problem:   CodeForces 944A
 // Link:      https://codeforces.com/problemset/problem/944/A
-// Language:  Microsoft Visual C++ 2010
-// Submitted: 2020-02-15 07:29 UTC
+// Language:  GNU G++17 7.3.0
+// Submitted: 2020-02-15 07:30 UTC
 // Verdict:   Accepted
 
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 
 using namespace std;
 
