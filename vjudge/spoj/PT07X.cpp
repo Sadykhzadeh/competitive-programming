@@ -1,7 +1,7 @@
 // Problem:   SPOJ PT07X
 // Link:      https://www.spoj.com/problems/PT07X/
 // Language:  C++ (gcc 6.3)
-// Submitted: 2020-02-01 08:59 UTC
+// Submitted: 2020-02-29 08:03 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
@@ -14,7 +14,6 @@ Programming Language: (C++)
 #define qq(x) cerr << (#x) << " = " << (x) << endl
 #define elif else if
 #define pb push_back
-#define eb emplace_back
 #define F first
 #define S second
 #define ins insert
@@ -43,40 +42,38 @@ cerr << "Автор: Азер Садыхзаде" << endl;}
 #pragma GCC optimize("unroll-loops")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
 
-#include <bits/stdc++.h>
-using namespace std;
-
-
-vector<vector<ll> > tree;
+vector<vector<ll> > g; // граф
 ll i, n, u, v;
-ll dp[100006][2];
+ll dp[100005][2];
 
-ll dfs(ll v, ll Parent, ll IsCovered){
-  ll i, &res = dp[v][IsCovered];
-  if(res != -1) return res;
-  if(IsCovered)
-        for(res = 1, i = 0; i < tree[v].size(); i++){
-            if(tree[v][i] != Parent) res += min(dfs(tree[v][i], v, 0),dfs(tree[v][i],v,1));
-        }
-  else
-        for(res = i = 0; i < tree[v].size(); i++){
-            if(tree[v][i] != Parent) res += dfs(tree[v][i], v, 1);
-        }
-  return res;
+int dfs(ll v, ll rod, ll flag){
+	ll i, &res = dp[v][flag];
+	if(res != -1) return res;
+	if(flag)
+	for(res = 1, i = 0; i < g[v].size(); i++){
+		ll to = g[v][i];
+		if (to != rod) res += min(dfs(to, v, 0),dfs(to,v,1));
+	}
+	else
+	  	for(res = i = 0; i < g[v].size(); i++){
+	   		ll to = g[v][i];
+	    	if (to != rod)
+	     		res += dfs(to, v, 1);
+	  }
+	qq(res);
+	return res;
 }
-
-int main(void){
-    F_READ;
-    cin >> n;
-    tree.resize(n+1);
-    for(i = 0; i < n - 1; i++){
-        cin >> u >> v;
-        tree[u].push_back(v);
-        tree[v].push_back(u);
-    }
-    memset(dp,-1,sizeof(dp));
-    ll res = min(dfs(1,-1,1),dfs(1,-1,0));
-    cout << res << endl;
-    timer();
-    stop;
+int main(){
+	F_READ;
+	cin >> n;
+	g.resize(n+1);
+	for(i = 0; i < n - 1; i++){
+	  cin >> v >> u;
+	  g[u].pb(v); g[v].pb(u);
+	  qq2(v,u);
+	}
+	memset(dp,-1,sizeof(dp));
+	cout << (min(dfs(1,-1,1),dfs(1,-1,0)));
+	timer();
+	stop;
 }
