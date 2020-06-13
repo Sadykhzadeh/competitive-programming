@@ -2,7 +2,7 @@
 // Link:      https://codeforces.com/contest/1326/problem/A
 // Rating:    1000   Tags: constructive algorithms, number theory
 // Language:  Node.js
-// Submitted: 2020-06-13 10:09 UTC
+// Submitted: 2020-06-13 10:11 UTC
 // Verdict:   Accepted
 
 const mainFunction = (lines) => {
@@ -21,12 +21,9 @@ const mainFunction = (lines) => {
 const {EOL} = require('os')
 const fs = require("fs");
 if(__filename.substr(9,4) != "azer"){  
-    let yourInputData = ''
-    process.stdin.on('data', i => yourInputData += i)
-    process.stdin.on('end', () => {
-        const lines = yourInputData.split(EOL)
-        mainFunction(lines)
-    })
+    let yourInput = ''
+    process.stdin.on('data', i => yourInput += i)
+    process.stdin.on('end', () => mainFunction(yourInput.split(EOL)))
 } else {
     mainFunction(fs.readFileSync('input.txt', 'utf8').split(EOL))
 }
