@@ -1,7 +1,7 @@
 // Problem:   Floyd - 1 (eolymp 974)
 // Link:      https://eolymp.com/problems/974
 // Language:  JavaScript (node 16)
-// Submitted: 2020-07-15 14:08 UTC
+// Submitted: 2020-07-15 14:15 UTC
 // Verdict:   Accepted
 
 const mainFunction = (lines) => {
@@ -17,11 +17,8 @@ const mainFunction = (lines) => {
                 if (arr[i][k] + arr[k][j] < arr[i][j])
                     arr[i][j] = (arr[i][k] + arr[k][j])
     for (let i = 0; i < n; i++) {
-        let out = ""
-        for (let j = 0; j < n; j++) {
-            out += arr[i][j] + " ";
-        }
-        console.log(out)
+        arr[i].length = n
+        console.log(arr[i].join(" "))
     }
 }
 
