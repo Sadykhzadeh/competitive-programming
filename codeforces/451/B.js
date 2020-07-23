@@ -2,15 +2,13 @@
 // Link:      https://codeforces.com/contest/451/problem/B
 // Rating:    1300   Tags: implementation, sortings
 // Language:  Node.js
-// Submitted: 2020-07-23 10:30 UTC
+// Submitted: 2020-07-23 10:33 UTC
 // Verdict:   Accepted
 
 let isSorted = arr => arr.every((v, i, a) => !i || a[i - 1] <= v)
 const mainFunction = (lines) => {
     let arr = lines[1].split(" ").map(Number),
         sortedArr = lines[1].split(" ").map(Number),
-        n = arr.length,
-        cnt = 0,
         mas = []
     if (isSorted(arr)) {
         console.log(`yes\n1 1`)
@@ -18,10 +16,8 @@ const mainFunction = (lines) => {
     }
     sortedArr.sort((a, b) => a - b)
     for (let i in arr) {
-        if (arr[i] != sortedArr[i]) {
-            cnt++;
+        if (arr[i] != sortedArr[i])
             mas.push(+i + 1)
-        }
     }
     mas.sort((a, b) => a - b)
     arr = arr.slice(mas[0] - 1, mas[mas.length - 1])
