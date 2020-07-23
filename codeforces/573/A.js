@@ -21,17 +21,22 @@ const mainFunction = (lines) => {
     arr.forEach(qwe => {
         res = gcd(res, qwe)
     });
+    while (res % 6 === 0 && res != 1) res /= 6;
+    while (res % 2 === 0 && res != 1) res /= 2;
+    while (res % 3 === 0 && res != 1) res /= 3;
+    //console.log(res)
     for (let i of arr) {
-        let qwe = Math.floor(i / res)
-        while (qwe % 6 === 0 && qwe != 1) qwe /= 6;
-        while (qwe % 2 === 0 && qwe != 1) qwe /= 2;
-        while (qwe % 3 === 0 && qwe != 1) qwe /= 3;
-        if (qwe != 1) {
-            console.log("NO")
-            return 0;
+        let two = 1,
+            three = 1
+        while (i % (two * 2) === 0) two *= 2;
+        while (i % (three * 3) === 0) three *= 3;
+        //console.log(res * two * three, i)
+        if (res * two * three != i) {
+            console.log("No")
+            return 0
         }
     }
-    console.log("YES")
+    console.log("Yes")
 }
 
 const { EOL } = require('os')
