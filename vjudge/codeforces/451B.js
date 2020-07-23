@@ -12,7 +12,7 @@ const mainFunction = (lines) => {
         cnt = 0,
         mas = []
     sortedArr.sort((a, b) => a - b)
-    console.log(arr, sortedArr)
+        //console.log(arr, sortedArr)
     for (let i in arr) {
         if (arr[i] != sortedArr[i]) {
             cnt++;
