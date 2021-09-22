@@ -1,7 +1,7 @@
 // Problem:   Super minimum (eolymp 2248)
 // Link:      https://eolymp.com/problems/2248
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2019-03-29 16:12 UTC
+// Submitted: 2021-09-22 14:08 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
