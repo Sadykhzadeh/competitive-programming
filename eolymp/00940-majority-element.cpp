@@ -1,7 +1,7 @@
 // Problem:   Majority Element (eolymp 940)
 // Link:      https://eolymp.com/problems/940
 // Language:  C++ 20 (gnu 14.2)
-// Submitted: 2018-11-18 08:57 UTC
+// Submitted: 2021-09-22 14:07 UTC
 // Verdict:   Accepted
 
 typedef long long ll;
