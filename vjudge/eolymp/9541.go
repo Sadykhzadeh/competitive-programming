@@ -1,7 +1,7 @@
 // Problem:   EOlymp 9541
 // Link:      https://eolymp.com/problems/9541
 // Language:  Go 1.20
-// Submitted: 2025-03-22 14:24 UTC
+// Submitted: 2025-03-22 14:27 UTC
 // Verdict:   Accepted
 
 package main
@@ -9,8 +9,8 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"math/big"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -18,15 +18,24 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	line, _ := reader.ReadString('\n')
 	line = strings.TrimSpace(line)
-	n := new(big.Int)
-	n, ok := n.SetString(line, 10)
-	if !ok {
+	n, err := strconv.Atoi(line)
+	if err != nil {
 		fmt.Println("0")
 		return
 	}
-	n2 := new(big.Int).Mul(n, n)
-	n2Plus1 := new(big.Int).Add(n2, big.NewInt(1))
-	product := new(big.Int).Mul(n2, n2Plus1)
-	result := new(big.Int).Div(product, big.NewInt(4))
-	fmt.Println(result.String())
+	if n%2 == 0 {
+		n2 := int64(n * n)
+		result := (n2 * (n2 + 1)) / 4
+		fmt.Println(result)
+		return
+	}
+	sum := 0
+	for i := 0; i < n; i++ {
+		for j := 0; j < n; j++ {
+			if (i+j)%2 == 0 {
+				sum += i*n + j + 1
+			}
+		}
+	}
+	fmt.Println(sum)
 }
