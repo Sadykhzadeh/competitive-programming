@@ -1,7 +1,7 @@
 // Problem:   EOlymp 87
 // Link:      https://eolymp.com/problems/87
 // Language:  Go 1.20
-// Submitted: 2025-03-22 14:54 UTC
+// Submitted: 2025-03-22 15:01 UTC
 // Verdict:   Accepted
 
 package main
@@ -17,20 +17,16 @@ func main() {
 	program, _ := reader.ReadString('\n')
 	program = trimNewline(program)
 	position := 0
-	direction := 0
 	visited := make(map[int]bool)
 	visited[position] = true
-
 	for _, cmd := range program {
 		switch cmd {
 		case 'L':
 			position--
-			direction = -1
 		case 'R':
 			position++
-			direction = 1
 		case 'S':
-			position += direction
+			// чилл, ниче делать не надо (вроде) протестируем!
 		}
 		visited[position] = true
 	}
