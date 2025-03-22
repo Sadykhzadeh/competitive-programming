@@ -1,7 +1,7 @@
 // Problem:   EOlymp 7440
 // Link:      https://eolymp.com/problems/7440
 // Language:  Go 1.20
-// Submitted: 2025-03-22 14:10 UTC
+// Submitted: 2025-03-22 14:12 UTC
 // Verdict:   Accepted
 
 package main
@@ -38,13 +38,21 @@ func makePalindrome(s string) (bool, string) {
 		left++
 		right--
 	}
-	return true, s[:len(s)-1]
+	if len(s)%2 == 1 {
+		mid := len(s) / 2
+		return true, s[:mid] + s[mid+1:]
+	} else {
+		mid := len(s)/2 - 1
+		return true, s[:mid] + s[mid+1:]
+	}
 }
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	s, _ := reader.ReadString('\n')
-	s = s[:len(s)-1]
+	if len(s) > 0 && s[len(s)-1] == '\n' {
+		s = s[:len(s)-1]
+	}
 	ok, result := makePalindrome(s)
 	if ok {
 		fmt.Println("yes")
